@@ -3,7 +3,7 @@ import { AppContext } from "../provider"
 
 const Table = ({id}) => {
   const [globalmemo, dispatch] = useContext(AppContext);
-
+  console.log(id);
   return (
     <div>
         Stůl číslo {id} <button onClick={() => {dispatch({typeof: "eat", payload: [id, 0, 1]})}}>vypil</button> {globalmemo.tables[id][0]}

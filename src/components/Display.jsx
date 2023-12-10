@@ -1,8 +1,8 @@
 
 const Display = ({text, children, ...rest}) => {
-    console.log(text)
-    console.log(rest)
-    console.log(children)
+    //console.log(text)
+    //console.log(rest)
+    //console.log(children)
 
   return (
     <>
